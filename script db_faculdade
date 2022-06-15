@@ -146,3 +146,5 @@ PRIMARY KEY(fk_Ra,fk_cod_disciplina),
 FOREIGN KEY(fk_RA) REFERENCES aluno(RA),
 FOREIGN KEY (fk_cod_disciplina) REFERENCES disciplina (cod_disciplina)
 );
+
+
