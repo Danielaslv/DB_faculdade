@@ -60,4 +60,8 @@ ALTER TABLE endereco
     
 ALTER TABLE tipo_telefone 
 	CHANGE tipo_telefone tipo_telefone CHAR(9);
+<<<<<<< HEAD
     
+=======
+    
+>>>>>>> 7e247fe092e5e1b5028f02bf40e7924649970602
