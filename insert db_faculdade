@@ -92,7 +92,11 @@ VALUES
 	('Direito Civil','lida com as relações jurídicas','1100','10','1'),
     ('Português Jurídico','linguagem encontrada em leis','340','10','1'),
     ('Ciência Política','Entender e moldar noções de Estado','800','10','1'),
-    ('Geometria Analítica','Relaciona a geometria à álgebra','80','10','5');
+    ('Geometria Analítica','Relaciona a geometria à álgebra','80','10','5'),
+    ('Ecologia','Parte biológica fator químico e físico','800','10','3'),
+    ('Genética','estudo científico dos genes','840','15','3'),
+    ('Zoologia','estudo científico da vida animal','1000','15','3'),
+    ('Morfologia','obs estruturas presentes no corpo','1200','10','3');
     
    
     INSERT INTO endereco 
@@ -128,29 +132,34 @@ VALUES
     ('residen'),
     ('comercial');
 
-    
+
   
 	INSERT INTO professor_disciplina 
 	(fk_cod_professor,fk_cod_disciplina)
 VALUES 
-	('1','23'),
+	('1','22'),
+    ('1','23'),
     ('1','24'),
-    ('1','25'),
-    ('2','24'),
-    ('3','9'),
-    ('4','26'),
-    ('5','1'),
-    ('5','17'),
-    ('6','4'),
-    ('7','5'),
-    ('8','4'),
-    ('9','19'),
-    ('10','22'),
-    ('10','3'),
-    ('1','20'),
-    ('1','21'),
-    ('1','19');
+    ('2','25'),
+    ('2','13'),
+    ('2','12'),
+    ('3','21'),
+    ('3','3'),
+    ('3','4'),
+    ('4','16'),
+    ('4','4'),
+    ('5','5'),
+    ('5','27'),
+    ('5','28'),
+    ('6','29'),
+    ('6','30'),
+    ('7','26'),
+	('7','15'),
+	('7','14'),
+	('7','8');
     
+
+
     INSERT INTO curso_disciplina
 	(fk_cod_curso,fk_cod_disciplina)
 VALUES
@@ -167,7 +176,7 @@ VALUES
     ('5','9'),
     ('5','15'),
     ('5','16'),
-    ('5','23'),
+    ('4','23'),
     ('6','3'),
     ('7','2'),
     ('7','12'),
@@ -360,3 +369,9 @@ VALUES
     ('19','14'),
     ('20','4'),
     ('20','17');
+    
+    
+
+    
+
+    
